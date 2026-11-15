@@ -1,6 +1,6 @@
 # Menu de Comandos Antares e Mira para OpenCode
 
-Gera automaticamente os comandos `/antares-*` e `/mira-*` no menu do OpenCode a partir dos skills instalados pelo [Antares](https://github.com/sandeco/antares) e pelo [Mira Animator](https://github.com/sandeco/mira-animator).
+Gera automaticamente os comandos `/antares-*` e `/mira-*` no menu do OpenCode a partir dos skills instalados pelo Antares e pelo [Mira Animator](https://github.com/sandeco/mira-animator).
 
 > **Por que este repositório cobre os dois prefixos?**
 > A instalação do Antares traz o Mira junto (a pasta `.agents/skills/` contém `antares-*`, `mira-*` e `_shared/`). Um único script gera os comandos dos dois frameworks, em vez de rodar `menu-mira-opencode` e este script separadamente na mesma pasta.
